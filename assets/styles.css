@@ -1,0 +1,107 @@
+@media(max-width:375px){
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        height: 100vh;
+        
+        font-family: 'Inter', sans-serif;
+
+        background-color: hsl(233, 47%, 7%);
+    }
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        gap: 20px;
+        overflow: hidden;
+
+        width: 250px;
+        height: 600px;
+
+        background-color: hsl(244, 38%, 16%);
+        border-radius: 7px;
+    }
+
+    .image{
+        width: 100%;
+        height: 180px;
+        
+        background-color: hsla(277, 64%, 61%);
+    }
+
+    .filter{
+        width: 100%;
+        height: 100%;
+
+        background-image: url(/assets/images/image-header-mobile.jpg);
+        opacity: 0.3;
+        background-repeat: no-repeat;
+        background-size: cover;
+       
+        }
+
+    .section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        gap: 20px;
+        width: 90%;
+        height: 180px;
+    }
+
+    .section h1{
+        font-weight: 700;
+        font-size: 22px;
+        text-align: center;
+        color: hsl(0, 0%, 100%);
+    }
+    .section em {
+        color: hsl(277, 64%, 61%);
+    } 
+    .section p{
+        width: 95%;
+
+        font-weight: 400;
+        line-height: 1.7;
+        font-size: 12px;
+        text-align: center;
+        color: hsla(0, 0%, 100%, 0.75);
+    }
+
+    .data{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        gap: 20px;
+    }
+
+    .data h1{
+        font-weight: 700;
+        font-size: 22px;
+        text-align: center;
+        color: hsl(0, 0%, 100%);
+    }
+
+    .data p{
+        padding-top: 10px;
+
+        font-family: 'Lexend Deca', sans-serif;
+
+        font-weight: 400;
+        letter-spacing: 1px;
+        font-size: 10px;
+        text-align: center;
+
+        color: hsla(0, 0%, 100%, 0.6);
+    }
+
+
+}
