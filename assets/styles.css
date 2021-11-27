@@ -30,7 +30,7 @@
         width: 100%;
         height: 180px;
         
-        background-color: hsla(277, 64%, 61%);
+        background-color: hsl(277, 64%, 61%);
     }
 
     .filter{
