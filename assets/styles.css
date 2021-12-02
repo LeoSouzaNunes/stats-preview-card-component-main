@@ -24,7 +24,7 @@ body{
     border-radius: 7px;
 }
 
-.image{
+.filter{
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
@@ -35,14 +35,14 @@ body{
     background-color: hsl(277, 64%, 61%);
 }
 
-.filter{
+.image{
     width: 100%;
     height: 100%;
 
     background-image: url(images/image-header-desktop.jpg);
-    opacity: 0.3;
     background-repeat: no-repeat;
     background-size: cover;
+    mix-blend-mode: multiply;
    
     }
 
