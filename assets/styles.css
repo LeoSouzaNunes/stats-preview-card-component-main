@@ -137,19 +137,19 @@ body{
         border-radius: 7px;
     }
 
-    .image{
+    .filter{
         width: 100%;
         height: 180px;
         
         background-color: hsl(277, 64%, 61%);
     }
 
-    .filter{
+    .image{
         width: 100%;
         height: 100%;
 
         background-image: url(images/image-header-mobile.jpg);
-        opacity: 0.3;
+        mix-blend-mode: multiply;
         background-repeat: no-repeat;
         background-size: cover;
        
